@@ -1,4 +1,4 @@
-const stdin = process.openStdin()
+// const stdin = process.openStdin()
 
 stdin.addListener("data", (d: Buffer) => {
     const n = Number(d.toString())
